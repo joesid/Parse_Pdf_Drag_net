@@ -31,4 +31,12 @@ for filename in os.listdir(pdf_directory):
         # Close the PDF file
       
         
+ # Create a new filename with the parsed string appended to the front
+        new_filename = parsed_string + '_' + filename
         
+        # Save a copy of the PDF file with the new filename
+        new_pdf = PdfWriter()
+        for page in range(page_count):
+            new_pdf.add_page(pdf_reader.pages[page])
+        with open(os.path.join(pdf_directory, new_filename), 'wb') as output_file:
+            new_pdf.write(output_file)      
