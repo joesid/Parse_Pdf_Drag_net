@@ -1,5 +1,13 @@
 # Parse_Pdf_Drag_net
 
+### Table Of Contents
+
+[Getting Started]
+[Usage]
+[Contribuitng]
+[License]
+[Acknowledgements]
+
 IT Manager/IT Support Specialist
 
 
@@ -32,8 +40,20 @@ index5, using line postion from index3.py or index4.py, it takes the string sitt
 
 NOTE: The line counts is restarted on each page, so index5 seperates the pdf to a seperate file (page by page) and renames it with the aforementioned format 
 
-SOFTWARE VERSION USED
+### PREQUISITES
 
-PIP Version 23.1.1 Python Version 3.10.11
+- PIP Version 23.1.1
 
-OS Windows 11 22H2 (Build 22621.5555)
+- Python Version 3.10.11
+
+- OS Windows 11 22H2 (Build 22621.5555)
+
+### INSTALLING
+
+### RUNNING THE TESTS
+
+### USAGE
+
+
+### CONTRIBUTING
+
