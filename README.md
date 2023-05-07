@@ -25,20 +25,6 @@ Sequel to the 1st cause, I was asked to assist in the broadcast of another set o
 
 
 
-SCRIPT FILE USAGE
-The index1.py was designed to Parse the content of a Pdf document(a letter) then Take the first two strings after the first occurence of the word "Dear"
-
-Then use this strings, to rename the file, by adding it to the front of the filename.
-
-The index2.py, basically truncates every character after the string "Letter" in the filename but stops right before the extension ".pdf"
-
-index3.py was to read the code and print out the text on each line and the line number.
-
-index4.py was to read the line and copy it to a text, cause I assumed something was wrong with "Index3.py", however it turns out the pdf which I used to run test on index3, I had unwittingly modified to be text inaccessible 
-
-index5, using line postion from index3.py or index4.py, it takes the string sitting on that line and append it to the front of the filename, joining it with a designated text format provided by me.
-
-NOTE: The line counts is restarted on each page, so index5 seperates the pdf to a seperate file (page by page) and renames it with the aforementioned format 
 
 ### PREQUISITES
 
@@ -53,6 +39,21 @@ NOTE: The line counts is restarted on each page, so index5 seperates the pdf to 
 ### RUNNING THE TESTS
 
 ### USAGE
+
+SCRIPT FILE USAGE
+The index1.py was designed to Parse the content of a Pdf document(a letter) then Take the first two strings after the first occurence of the word "Dear"
+
+Then use this strings, to rename the file, by adding it to the front of the filename.
+
+The index2.py, basically truncates every character after the string "Letter" in the filename but stops right before the extension ".pdf"
+
+index3.py was to read the code and print out the text on each line and the line number.
+
+index4.py was to read the line and copy it to a text, cause I assumed something was wrong with "Index3.py", however it turns out the pdf which I used to run test on index3, I had unwittingly modified to be text inaccessible 
+
+index5, using line postion from index3.py or index4.py, it takes the string sitting on that line and append it to the front of the filename, joining it with a designated text format provided by me.
+
+NOTE: The line counts is restarted on each page, so index5 seperates the pdf to a seperate file (page by page) and renames it with the aforementioned format 
 
 
 ### CONTRIBUTING
